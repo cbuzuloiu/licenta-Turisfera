@@ -1,0 +1,77 @@
+/* GENERAL STYLING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roboto-uniquifier {
+  font-family: 'Roboto', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+/* property to make 1rem = 10px  */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.portocaliu {
+  color: #a3350d;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+/* HEADER SECTION STYLING */
+.header-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.nav-container {
+  background-color: #3cb6d4;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+
+/* FOOTER SECTION STYLING */
+.footer-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
